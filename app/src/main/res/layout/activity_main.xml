@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.juanjo.actv2di.MainActivity">
+
+    <TextView
+        android:id="@+id/album1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:layout_marginTop="61dp"
+        android:width="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Album 1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+    <TextView
+
+        android:id="@+id/album2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/album1"
+
+        android:layout_margin="10dp"
+        android:layout_marginTop="61dp"
+        android:width="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Album 2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/album3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/album2"
+
+        android:layout_margin="10dp"
+        android:layout_marginTop="61dp"
+        android:width="10dp"
+        android:background="?attr/colorControlHighlight"
+        android:text="Album 3"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/album4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/album3"
+
+        android:layout_margin="10dp"
+        android:layout_marginTop="61dp"
+        android:width="10dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Album 4"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/separador"
+        >
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:columnCount="2">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Foto 3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Foto 4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Foto 5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Foto 6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="Foto 7"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 8"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 9"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 10"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 11"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 12"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 13"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 14"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 15"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 16"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="foto 1"
+                android:textAlignment="center" />
+
+        </GridLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/separador"
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/album1"
+        android:background="@android:color/background_light" />
+
+</RelativeLayout>
